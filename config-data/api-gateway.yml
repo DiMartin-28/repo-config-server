@@ -1,0 +1,16 @@
+
+Por supuesto, aquí tienes el contenido convertido a un archivo YAML:
+
+yaml
+Copy code
+spring:
+  application:
+    name: api-gateway
+  server:
+    port: 443
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
